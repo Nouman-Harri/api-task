@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 45%;
+  padding: 30px 20px;
+  top: 50%;
+  left: 50%;
+  background: rgb(255, 255, 255);
+  border: solid 1px black;
+  border-radius: 10px;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%, -50%);
+}
+#newtask {
+  position: relative;
+  border: 2px solid #d1d3d4;
+}
+#newtask input {
+  width: 90%;
+  height: 45px;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  outline: none;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: none;
+}
+
+#newtask input:focus {
+  outline: none;
+  border-color: #0d75ec;
+}
+#newtask button {
+  position: relative;
+  float: right;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  top: -45px;
+  width: 10%;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+}
+#tasks {
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-top: 10px;
+}
+h4 {
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+span a {
+  position: relative;
+  padding-left: 18rem;
+  opacity: 63%;
+  text-decoration: none;
+  color: black;
+}
+span a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.task {
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+.task span {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.task button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 70%;
+}
+
+#list {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
+
+.animals {
+  display: list-item;
+}
+ul li {
+  padding: 8px;
+  /* border: 0.5px solid black;
+  border-radius: 12px; */
+}
+.trash {
+  padding: 5px;
+  border: none;
+  margin-left: 5%;
+}
