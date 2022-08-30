@@ -9,7 +9,7 @@ const button = (document.querySelector("#delete").onclick = () => {
 form.addEventListener('submit',onSubmit)
 
 function onSubmit(e){
-  event.preventDefault();
+  e.preventDefault();
   if (input.value) {
     render(input.value);
     history.push(input.value);
